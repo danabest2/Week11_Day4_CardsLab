@@ -28,6 +28,19 @@ public class DeckTest {
         public void canPopulateDeck(){
                 deck.populate();
                 assertEquals(52, deck.getCards().size());
+
+                //System.out.println();
+        }
+
+//        @Test
+//        public void canShuffleCards(){
+//                assertEquals(52, deck.shuffle());
+//                System.out.println();
+//;        }
+
+        @Test
+        public void canPrintCards(){
+                System.out.println();
         }
 }
 

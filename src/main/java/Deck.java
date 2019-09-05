@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Deck {
 
@@ -26,9 +27,13 @@ public class Deck {
                 addCard(card);
             }
         }
+
+   }
+
+   public String toString() {
+       return cards.toString();
    }
 
 
-
-
 }
+
